@@ -6,7 +6,7 @@ A responsive, modern, and fully functional Employee Directory web application bu
 
 ## 🚀 Live Demo
 
-🔗 [https://employee-directory.vercel.app](https://v0-employee-directory-design.vercel.app/)  
+🔗 (https://v0-employee-directory-design.vercel.app/)    
 <sub>(Replace this with your actual deployed link if different)</sub>
 
 ---
