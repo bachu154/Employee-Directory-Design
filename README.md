@@ -1,60 +1,88 @@
-# 👥 Employee Directory - Design Assignment
+📘 Employee Directory
+A responsive, modern, and fully functional Employee Directory web application built with React, TypeScript, Tailwind CSS, and ShadCN UI. It allows users to view, search, filter, add, edit, and delete employee records based on department and other metadata.
 
-An elegant and responsive Employee Directory built with React and Tailwind CSS. This project is part of a front-end development assignment to demonstrate clean UI design, modular code, and responsive layout implementation.
+🚀 Live Demo
+🔗 https://employee-directory.vercel.app
+(Replace with your actual Vercel or Netlify deployment URL)
 
----
+📸 Preview
 
-## 📸 Demo
+🧱 Features
+🔍 Search by name or email
 
-> 🔗 **Live URL:** _[Coming Soon - Deployed via Vercel](#)_
+🗂 Filter by department
 
-![Screenshot](./public/screenshot.png) <!-- Add your own screenshot file or path -->
+➕ Add, ✏️ Edit, 🗑 Delete employees
 
----
+📱 Responsive design for mobile and desktop
 
-## ✨ Features
+🎨 Styled using Tailwind CSS with custom themes
 
-- ✅ Fully responsive employee directory layout
-- ✅ Modern UI with clean design principles
-- ✅ Reusable components
-- ✅ Tailwind CSS integration for fast styling
-- ✅ Structured project with maintainable file architecture
+♿️ Accessible components using Radix UI and ShadCN
 
----
+💾 Persistent state using local storage
 
-## 🧰 Tech Stack
+🛠️ Tech Stack
+Tech	Purpose
+React	UI rendering
+TypeScript	Type safety and developer experience
+Tailwind CSS	Utility-first styling
+Radix UI	Accessible primitives
+ShadCN UI	Styled components built on Radix
+Lucide Icons	Icon library
+Vite	Build tool
 
-- **React**
-- **Vite**
-- **TypeScript**
-- **Tailwind CSS**
-
----
-
-## 📁 Folder Structure
-
-src/
-├── assets/ # Static images and assets
-├── components/ # Reusable UI components
-├── pages/ # Page-level components
-├── data/ # Employee data (mock)
-├── App.tsx # Root component
-├── main.tsx # Entry point
-└── index.css # Global styles
-
-yaml
+📂 Project Structure
+arduino
 Copy
 Edit
+📦 employee-directory
+├── 📁 components       // UI components (Card, Form, etc.)
+├── 📁 pages            // Main page components
+├── 📁 data             // Dummy data and types
+├── 📁 lib              // Utility functions
+├── 📁 public           // Static assets (screenshot, favicon)
+├── 📄 tailwind.config.ts
+├── 📄 tsconfig.json
+├── 📄 index.html
+└── 📄 README.md
+🧪 Future Enhancements
+🧪 Add unit tests with Jest/React Testing Library
 
----
+🌐 Backend integration for real-time data
 
-## 🚀 Getting Started
+🔄 Pagination or infinite scroll
 
-### 📦 Installation
+⏱ Sort by name/department or date added
 
-```bash
-git clone https://github.com/YOUR_USERNAME/Employee-directory-design-Assignment.git
+🧑‍💻 Getting Started
+Clone the repo
+
+bash
+Copy
+Edit
+git clone https://github.com/bachu154/Employee-directory-design-Assignment.git
 cd Employee-directory-design-Assignment
-npm install
-npm run dev
+Install dependencies
 
+bash
+Copy
+Edit
+npm install
+Run locally
+
+bash
+Copy
+Edit
+npm run dev
+✅ Accessibility (A11y)
+Uses semantic HTML
+
+All buttons and icons include aria-label
+
+Keyboard-navigable
+
+High contrast color tokens
+
+📄 License
+This project is open-source and available under the MIT License.
