@@ -1,88 +1,105 @@
-📘 Employee Directory
-A responsive, modern, and fully functional Employee Directory web application built with React, TypeScript, Tailwind CSS, and ShadCN UI. It allows users to view, search, filter, add, edit, and delete employee records based on department and other metadata.
+# 📘 Employee Directory
 
-🚀 Live Demo
-🔗 https://employee-directory.vercel.app
-(Replace with your actual Vercel or Netlify deployment URL)
+A responsive, modern, and fully functional Employee Directory web application built with **React**, **TypeScript**, **Tailwind CSS**, and **ShadCN UI**. It allows users to view, search, filter, add, edit, and delete employee records based on department and other metadata.
 
-📸 Preview
+---
 
-🧱 Features
-🔍 Search by name or email
+## 🚀 Live Demo
 
-🗂 Filter by department
+🔗 [https://employee-directory.vercel.app](https://employee-directory.vercel.app)  
+<sub>(Replace this with your actual deployed link if different)</sub>
 
-➕ Add, ✏️ Edit, 🗑 Delete employees
+---
 
-📱 Responsive design for mobile and desktop
+## 📸 Preview
 
-🎨 Styled using Tailwind CSS with custom themes
+![Employee Directory Screenshot](public/screenshot.png)
 
-♿️ Accessible components using Radix UI and ShadCN
+> 💡 Ensure you place your screenshot image in the `public/` folder and name it `screenshot.png`.
 
-💾 Persistent state using local storage
+---
 
-🛠️ Tech Stack
-Tech	Purpose
-React	UI rendering
-TypeScript	Type safety and developer experience
-Tailwind CSS	Utility-first styling
-Radix UI	Accessible primitives
-ShadCN UI	Styled components built on Radix
-Lucide Icons	Icon library
-Vite	Build tool
+## 🧱 Features
 
-📂 Project Structure
-arduino
-Copy
-Edit
+- 🔍 **Search** employees by name or email
+- 🗂 **Filter** employees by department
+- ➕ **Add**, ✏️ **Edit**, 🗑 **Delete** employee records
+- 📱 **Responsive design** for both desktop and mobile
+- 🎨 Styled using **Tailwind CSS** with custom themes
+- ♿️ Fully **accessible** UI using **Radix UI** and **ShadCN**
+- 💾 **Local storage** for data persistence across sessions
+
+---
+
+## 🛠 Tech Stack
+
+| Technology      | Purpose                                     |
+|----------------|---------------------------------------------|
+| React           | UI rendering and component management       |
+| TypeScript      | Type safety and better developer experience |
+| Tailwind CSS    | Utility-first CSS styling                   |
+| Radix UI        | Accessible UI primitives                    |
+| ShadCN UI       | Styled components based on Radix UI         |
+| Lucide Icons    | Icon library                                |
+| Vite            | Lightning-fast development build tool       |
+
+---
+
+## 📂 Project Structure
+
 📦 employee-directory
-├── 📁 components       // UI components (Card, Form, etc.)
-├── 📁 pages            // Main page components
-├── 📁 data             // Dummy data and types
-├── 📁 lib              // Utility functions
-├── 📁 public           // Static assets (screenshot, favicon)
+├── 📁 components # Reusable UI components (Card, Form, etc.)
+├── 📁 pages # Main page components
+├── 📁 data # Dummy employee data and TypeScript types
+├── 📁 lib # Utility functions
+├── 📁 public # Static assets (screenshot, favicon, etc.)
 ├── 📄 tailwind.config.ts
 ├── 📄 tsconfig.json
 ├── 📄 index.html
 └── 📄 README.md
-🧪 Future Enhancements
-🧪 Add unit tests with Jest/React Testing Library
 
-🌐 Backend integration for real-time data
-
-🔄 Pagination or infinite scroll
-
-⏱ Sort by name/department or date added
-
-🧑‍💻 Getting Started
-Clone the repo
-
-bash
+yaml
 Copy
 Edit
+
+---
+
+## 🧪 Future Enhancements
+
+- 🧪 Add unit tests with Jest or React Testing Library  
+- 🌐 Backend integration for persistent data  
+- 🔄 Implement pagination or infinite scrolling  
+- ⏱ Add sorting by name, department, or date added
+
+---
+
+## 🧑‍💻 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/bachu154/Employee-directory-design-Assignment.git
 cd Employee-directory-design-Assignment
-Install dependencies
-
+2️⃣ Install dependencies
 bash
 Copy
 Edit
 npm install
-Run locally
-
+3️⃣ Run the app locally
 bash
 Copy
 Edit
 npm run dev
+Then, open http://localhost:5173 in your browser.
+
 ✅ Accessibility (A11y)
-Uses semantic HTML
+Semantic HTML tags
 
-All buttons and icons include aria-label
+Aria-labels for icons and buttons
 
-Keyboard-navigable
+Keyboard-navigable UI
 
-High contrast color tokens
+High contrast colors for readability
 
 📄 License
-This project is open-source and available under the MIT License.
+This project is open source and available under the MIT License.
