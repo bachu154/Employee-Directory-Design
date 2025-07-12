@@ -43,6 +43,9 @@ A responsive, modern, and fully functional Employee Directory web application bu
 | Vite            | Lightning-fast development build tool       |
 
 ---
+## 📝 Reflection
+
+I faced challenges implementing robust client-side validation and ensuring type safety across form inputs. With more time, I’d add unit tests via React Testing Library, pagination controls customization, and backend integration for data persistence.
 
 ## 📂 Project Structure
 
