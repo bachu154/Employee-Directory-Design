@@ -12,8 +12,7 @@ A responsive, modern, and fully functional Employee Directory web application bu
 ---
 
 ## 📸 Preview
-
-![Employee Directory Screenshot](public/screenshot.png)
+<img width="1537" height="929" alt="Employee Directory" src="https://github.com/user-attachments/assets/ef47dbfa-feb2-4f43-98ce-b0fd482b338c" />
 
 > 💡 Ensure you place your screenshot image in the `public/` folder and name it `screenshot.png`.
 
